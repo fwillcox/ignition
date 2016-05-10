@@ -4,6 +4,8 @@
 % NOTE: All code for this project should be able to deal with effects of 
 % both (1) chemical equilibrium and (2) frozen flow in nozzle assumptions
 
+%kkdkd
+
 % ------
 % TODOS:
 % ------
