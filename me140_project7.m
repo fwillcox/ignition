@@ -166,7 +166,7 @@ Cf = F / (P0 * At);
 %  Optimal Nozzle Expanision Ratio (e)
 e = Aexit / Athroat;
 
-
+%comment for testing 
 
 % ----------------------------------------
 % PART 3: Improve the Hybrid Rocket Motor (using impulse/specific impulse)
