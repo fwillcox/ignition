@@ -59,8 +59,6 @@ rmix_lean = 10;                                     % rmix = mdot_O2 / mdot_C2H4
 rmix_rich = 1;
 rmix = linspace(rmix_lean, rmix_rich,npts);
 
-            
-
 for i = 1:length(rmix)
    % Mol Fractions (x)
    x_r = zeros(nsp,1);
@@ -95,7 +93,6 @@ for i = 1:length(rmix)
         set(gas,'T',Ttest,'P',P0,'X',x_p);
         h_p = enthalpy_mole(gas);                  
    end
-
    T0 = Ttest;                                      % [K] T0, Stagnation Temperature of Nozzle = Adiabatic Flame Temp of Combustor
 
     
